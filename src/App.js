@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<NavBar/>}/>
+      <Route path='/' element={<SignIn/>}/>
     </Routes>
     </BrowserRouter>
   );
